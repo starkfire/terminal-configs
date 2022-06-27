@@ -6,9 +6,11 @@ A repository for storing my terminal configs for Vim and [Hyper](https://hyper.i
 * [/hyper](https://github.com/starkfire/terminal-configs/tree/master/hyper): configs I use with [hyper](https://hyper.is/).
 * [/vim](https://github.com/starkfire/terminal-configs/tree/master/vim): contains basic `.vimrc` configs which I use for Vim (separate `.vimrc` for Linux and Windows).
 
+### Vim
+
 I styled Vim's status bar using this [gist](https://gist.github.com/meskarune/57b613907ebd1df67eb7bdb83c6e6641) from [meskarune](https://gist.github.com/meskarune).
 
-### Why separate `.vimrc` configs for Linux and Windows?
+#### Why separate `.vimrc` configs for Linux and Windows?
 I use separate `.vimrc` configs for my Linux and Windows workstations. My Linux setup happened to use [Plug](https://github.com/junegunn/vim-plug) for plugin management, while my Windows setup used [Vundle](https://github.com/VundleVim/Vundle.vim).
 
 So in case you are using these configs, you will be using `:PlugInstall` (Plug) or `:PluginInstall` (Vundle) depending on your plugin manager.
